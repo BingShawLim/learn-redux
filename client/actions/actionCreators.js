@@ -6,7 +6,7 @@ export function increment(index){
 }
 
 export function addComment(postId, author, comment){
-    console.log(dispatch!)
+    console.log("dispatch!")
     return {
         type: 'ADD_COMMENT',
         postId,

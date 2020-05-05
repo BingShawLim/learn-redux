@@ -17,7 +17,7 @@ export class Single extends Component {
         return (
             <div className="single-photo">
                 <Photo i={i} post={post} {...this.props}/>
-                <Comments postComments={postComments} {...this.props}/>
+                <Comments postComments={postComments} {...this.props} />
             </div>
         )
     }
